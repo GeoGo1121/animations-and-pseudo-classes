@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/style-contact.css" />
+    <title>coffee House</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" id="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M11.41 11.77c0-3.43 2.59-6.25 6.03-6.56l2.9-.26c-.19-.24-.39-.47-.61-.69C16.24.77 9.93 1.4 5.67 5.67c-2.04 2.04-3.32 4.6-3.61 7.21c-.17 1.53.02 2.96.52 4.24l4.97-.82c2.24-.37 3.87-2.27 3.87-4.52Z"
+          />
+          <path
+            d="M17.62 7.21c-2.4.22-4.21 2.18-4.21 4.57c0 3.23-2.33 5.97-5.54 6.5l-4.26.7c.2.26.42.52.66.76c1.48 1.48 3.49 2.27 5.74 2.27q.555 0 1.11-.06c2.61-.29 5.18-1.57 7.21-3.61s3.32-4.6 3.61-7.21c.17-1.53-.02-2.97-.52-4.25l-3.79.34Z"
+          />
+        </svg>
+        Coffee House
+      </a>
+
+      <input type="checkbox" id="menu-toggle" />
+
+      <label for="menu-toggle" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav id="navbar">
+        <ul>
+          <li><a href="../index.html" class="home">Home</a></li>
+          <li><a href="./menu.html" class="menu">Menu</a></li>
+          <li><a href="./contact.html" class="contact active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact-section">
+      <div class="full-contact-wrapper">
+        <h2>contact us</h2>
+        <form class="contact-form">
+          <div class="name-row">
+            <label for="firstname">
+              <input
+                type="text"
+                id="firstname"
+                placeholder="first name"
+                required
+              />
+            </label>
+            <label for="lastname">
+              <input
+                type="text"
+                id="lastname"
+                placeholder="last name"
+                required
+              />
+            </label>
+          </div>
+          <div class="email-row">
+            <label for="email">
+              <input type="email" id="email" placeholder="email" required />
+            </label>
+          </div>
+          <div class="comment">
+            <label for="comment">
+              <textarea
+                name="comment"
+                id="comment"
+                rows="5"
+                placeholder="leave your comment"
+                required
+              ></textarea>
+            </label>
+          </div>
+          <div class="submit-btn">
+            <button>submit</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="booking-wrapper">
+        <h2>book a call</h2>
+        <form class="booking-form">
+          <div class="calendar">
+            <div class="calendar-header">
+              <h3>November 2026</h3>
+            </div>
+            <div class="calendar-grid">
+              
+              <div class="day-name">Mon</div>
+              <div class="day-name">Tue</div>
+              <div class="day-name">Wed</div>
+              <div class="day-name">Thu</div>
+              <div class="day-name">Fri</div>
+              <div class="day-name">Sat</div>
+              <div class="day-name">Sun</div>
+
+
+              <div class="empty"></div>
+              <div class="empty"></div>
+              <div class="empty"></div>
+              <div class="empty"></div>
+              <div class="empty"></div>
+              <div class="empty"></div>
+
+
+              <label for="day1" class="date">1</label>
+              <input type="radio" name="date" id="day1" required />
+
+              <label for="day2" class="date">2</label>
+              <input type="radio" name="date" id="day2" />
+
+              <label for="day3" class="date">3</label>
+              <input type="radio" name="date" id="day3" />
+
+              <label for="day4" class="date">4</label>
+              <input type="radio" name="date" id="day4" />
+
+              <label for="day5" class="date">5</label>
+              <input type="radio" name="date" id="day5" />
+
+              <label for="day6" class="date">6</label>
+              <input type="radio" name="date" id="day6" />
+
+              <label for="day7" class="date">7</label>
+              <input type="radio" name="date" id="day7" />
+
+              <label for="day8" class="date">8</label>
+              <input type="radio" name="date" id="day8" />
+
+              <label for="day9" class="date">9</label>
+              <input type="radio" name="date" id="day9" />
+
+              <label for="day10" class="date">10</label>
+              <input type="radio" name="date" id="day10" />
+
+              <label for="day11" class="date">11</label>
+              <input type="radio" name="date" id="day11" />
+
+              <label for="day12" class="date">12</label>
+              <input type="radio" name="date" id="day12" />
+
+              <label for="day13" class="date">13</label>
+              <input type="radio" name="date" id="day13" />
+
+              <label for="day14" class="date">14</label>
+              <input type="radio" name="date" id="day14" />
+
+              <label for="day15" class="date">15</label>
+              <input type="radio" name="date" id="day15" />
+
+              <label for="day16" class="date">16</label>
+              <input type="radio" name="date" id="day16" />
+
+              <label for="day17" class="date">17</label>
+              <input type="radio" name="date" id="day17" />
+
+              <label for="day18" class="date">18</label>
+              <input type="radio" name="date" id="day18" />
+
+              <label for="day19" class="date">19</label>
+              <input type="radio" name="date" id="day19" />
+
+              <label for="day20" class="date">20</label>
+              <input type="radio" name="date" id="day20" />
+
+              <label for="day21" class="date">21</label>
+              <input type="radio" name="date" id="day21" />
+
+              <label for="day22" class="date">22</label>
+              <input type="radio" name="date" id="day22" />
+
+              <label for="day23" class="date">23</label>
+              <input type="radio" name="date" id="day23" />
+
+              <label for="day24" class="date">24</label>
+              <input type="radio" name="date" id="day24" />
+
+              <label for="day25" class="date">25</label>
+              <input type="radio" name="date" id="day25" />
+
+              <label for="day26" class="date">26</label>
+              <input type="radio" name="date" id="day26" />
+
+              <label for="day27" class="date">27</label>
+              <input type="radio" name="date" id="day27" />
+
+              <label for="day28" class="date">28</label>
+              <input type="radio" name="date" id="day28" />
+
+              <label for="day29" class="date">29</label>
+              <input type="radio" name="date" id="day29" />
+
+              <label for="day30" class="date">30</label>
+              <input type="radio" name="date" id="day30" />
+            </div>
+          </div>
+          <div class="phone-row">
+            <label for="phone" class="phone-row-label">Phone number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+995 555 123 456"
+              pattern="[+]?[0-9\s-]{9,20}"
+              required
+            />
+          </div>
+
+          <div class="submit-btn">
+            <button type="submit">Book</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

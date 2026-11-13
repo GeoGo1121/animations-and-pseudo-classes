@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style-menu.css" />
+    <title>coffee House</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" id="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M11.41 11.77c0-3.43 2.59-6.25 6.03-6.56l2.9-.26c-.19-.24-.39-.47-.61-.69C16.24.77 9.93 1.4 5.67 5.67c-2.04 2.04-3.32 4.6-3.61 7.21c-.17 1.53.02 2.96.52 4.24l4.97-.82c2.24-.37 3.87-2.27 3.87-4.52Z"
+          />
+          <path
+            d="M17.62 7.21c-2.4.22-4.21 2.18-4.21 4.57c0 3.23-2.33 5.97-5.54 6.5l-4.26.7c.2.26.42.52.66.76c1.48 1.48 3.49 2.27 5.74 2.27q.555 0 1.11-.06c2.61-.29 5.18-1.57 7.21-3.61s3.32-4.6 3.61-7.21c.17-1.53-.02-2.97-.52-4.25l-3.79.34Z"
+          />
+        </svg>
+        Coffee House
+      </a>
+
+      <input type="checkbox" id="menu-toggle" />
+
+      <label for="menu-toggle" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav id="navbar">
+        <ul>
+          <li><a href="../index.html" class="home">Home</a></li>
+          <li><a href="./menu.html" class="menu active">Menu</a></li>
+          <li><a href="./contact.html" class="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="menu-container">
+      <h1 class="menu-title">Our Coffee Menu</h1>
+      <div class="coffee-grid">
+        <div class="coffee-card">
+          <div class="card-img-container">
+            <img src="../imgs/espresso.jpg" alt="Espresso" class="coffee-img" />
+          </div>
+          <div class="card-content">
+            <h3>Espresso - Special!</h3>
+            <p>Rich and bold single shot of pure espresso.</p>
+            <div class="card-footer">
+              <span class="price">$3.50</span>
+              <button class="order-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card">
+          <div class="card-img-container">
+            <img
+              src="../imgs/cappucino.jpg"
+              alt="Cappuccino"
+              class="coffee-img"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Cappuccino</h3>
+            <p>Equal parts of espresso, steamed milk, and rich foam.</p>
+            <div class="card-footer">
+              <span class="price">$4.50</span>
+              <button class="order-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card">
+          <div class="card-img-container">
+            <img src="../imgs/latte.jpg" alt="Caffe Latte" class="coffee-img" />
+          </div>
+          <div class="card-content">
+            <h3>Caffe Latte</h3>
+            <p>Smooth espresso balanced with velvety steamed milk.</p>
+            <div class="card-footer">
+              <span class="price">$4.75</span>
+              <button class="order-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card">
+          <div class="card-img-container">
+            <img
+              src="../imgs/americano.jpg"
+              alt="Americano"
+              class="coffee-img"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Americano</h3>
+            <p>Espresso shots topped with hot water for a smooth finish.</p>
+            <div class="card-footer">
+              <span class="price">$3.75</span>
+              <button class="order-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card">
+          <div class="card-img-container">
+            <img
+              src="../imgs/caramel macchiato.jpg"
+              alt="Caramel Macchiato"
+              class="coffee-img"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Caramel Macchiato</h3>
+            <p>
+              Espresso with steamed milk, vanilla syrup, and caramel drizzle.
+            </p>
+            <div class="card-footer">
+              <span class="price">$5.25</span>
+              <button class="order-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card">
+          <div class="card-img-container">
+            <img src="../imgs/mocha.jpg" alt="Mocha" class="coffee-img" />
+          </div>
+          <div class="card-content">
+            <h3>Mocha</h3>
+            <p>Espresso combined with rich chocolate and steamed milk.</p>
+            <div class="card-footer">
+              <span class="price">$5.00</span>
+              <button class="order-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card">
+          <div class="card-img-container">
+            <img
+              src="../imgs/flat white.jpg"
+              alt="Flat White"
+              class="coffee-img"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Flat White</h3>
+            <p>Double shot of espresso topped with thin microfoam milk.</p>
+            <div class="card-footer">
+              <span class="price">$4.80</span>
+              <button class="order-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card">
+          <div class="card-img-container">
+            <img
+              src="../imgs/cold brew.jpg"
+              alt="Cold Brew"
+              class="coffee-img"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Cold Brew</h3>
+            <p>Slow-steeped for 20 hours for an ultra-smooth flavor.</p>
+            <div class="card-footer">
+              <span class="price">$4.25</span>
+              <button class="order-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
